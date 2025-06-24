@@ -24,7 +24,7 @@ body {
   padding: 0 1rem 1rem;
   background: #fff;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   overflow: hidden;
 }
@@ -44,7 +44,7 @@ body {
   bottom: 1rem;
   left: 50%;
   transform: translateX(-50%);
-  background: rgba(0,0,0,0.6);
+  background: rgba(0, 0, 0, 0.6);
   color: #fff;
   padding: 1rem;
   border-radius: 4px;
@@ -101,3 +101,4 @@ body {
     font-size: 1.1rem;
   }
 }
+

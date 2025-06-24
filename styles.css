@@ -15,11 +15,34 @@ body {
 .invite {
   max-width: 600px;
   margin: 2rem auto;
-  padding: 1rem;
+  padding: 0 1rem 1rem;
   background: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   text-align: center;
+  overflow: hidden;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero__text {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 4px;
+  width: calc(100% - 2rem);
 }
 
 .invite__header {
@@ -37,12 +60,14 @@ body {
   margin-bottom: 0.25rem;
 }
 
-.invite__description {
+.invite__section {
   margin: 1rem 0;
 }
 
+.invite__description {
+}
+
 .invite__guest-list {
-  margin: 1rem 0;
   text-align: left;
 }
 
@@ -77,3 +102,4 @@ body {
     font-size: 1.1rem;
   }
 }
+

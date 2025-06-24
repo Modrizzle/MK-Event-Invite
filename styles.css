@@ -5,8 +5,14 @@
   padding: 0;
 }
 
+:root {
+  --primary-color: #007bff;
+  --primary-dark: #0056b3;
+  --font-stack: "Helvetica Neue", Arial, sans-serif;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-stack);
   background: #f7f7f7;
   color: #333;
   line-height: 1.6;
@@ -45,10 +51,6 @@ body {
   width: calc(100% - 2rem);
 }
 
-.invite__header {
-  margin-bottom: 1rem;
-}
-
 .invite__title {
   font-size: 2rem;
   margin-bottom: 0.5rem;
@@ -62,9 +64,6 @@ body {
 
 .invite__section {
   margin: 1rem 0;
-}
-
-.invite__description {
 }
 
 .invite__guest-list {
@@ -81,7 +80,7 @@ body {
 
 .btn {
   display: inline-block;
-  background: #007bff;
+  background: var(--primary-color);
   color: #fff;
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
@@ -90,7 +89,7 @@ body {
 }
 
 .btn:hover {
-  background: #0056b3;
+  background: var(--primary-dark);
 }
 
 @media (min-width: 700px) {
@@ -102,4 +101,3 @@ body {
     font-size: 1.1rem;
   }
 }
-

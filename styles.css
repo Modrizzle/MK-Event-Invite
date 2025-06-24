@@ -15,12 +15,12 @@ body {
 .invite {
   max-width: 600px;
   margin: 2rem auto;
+  padding: 0 1rem 1rem;
   background: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   text-align: center;
   overflow: hidden;
-  padding: 0 1rem 1rem;
 }
 
 .hero {
@@ -43,6 +43,10 @@ body {
   padding: 1rem;
   border-radius: 4px;
   width: calc(100% - 2rem);
+}
+
+.invite__header {
+  margin-bottom: 1rem;
 }
 
 .invite__title {
@@ -98,3 +102,4 @@ body {
     font-size: 1.1rem;
   }
 }
+
